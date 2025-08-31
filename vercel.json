@@ -1,8 +1,19 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
   "framework": "vite",
+  "buildCommand": "CI=false npm run build",
+  "installCommand": "npm install --legacy-peer-deps",
+  "outputDirectory": "dist",
   "env": {
-    "NODE_VERSION": "18"
+    "NODE_ENV": "production"
   }
 }
