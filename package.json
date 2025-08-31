@@ -10,17 +10,18 @@
     "server": "node server.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "nodemailer": "^6.9.11",
+    "@google/generative-ai": "^0.11.4",
+    "canvas": "^3.2.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.2",
+    "express": "^4.19.2",
     "framer-motion": "^11.0.0",
+    "lucide-react": "^0.344.0",
+    "nodemailer": "^6.9.11",
     "pdfjs-dist": "^4.0.379",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tesseract.js": "^5.0.3",
-    "@google/generative-ai": "^0.11.4",
-    "lucide-react": "^0.344.0"
+    "tesseract.js": "^5.0.3"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.2",
@@ -30,7 +31,6 @@
     "vite": "^5.0.0"
   },
   "engines": {
-  "node": ">=20"
+    "node": ">=20"
   }
-
 }
