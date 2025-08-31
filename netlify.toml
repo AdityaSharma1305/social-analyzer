@@ -4,4 +4,3 @@
 
 [build.environment]
   NODE_VERSION = "20.19.0"
-  ROLLUP_SKIP_NODE = "true"
